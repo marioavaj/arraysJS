@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Array</title>
+</head>
+<body>
+
+    <form>        
+        <label for="movieName">Názov Filmu:</label>
+        <input type="text" id="movieName" name="movieName"><br><br>
+        <label for="moveYear">Rok:</label>
+        <input type="text" id="moveYear" name="moveYear"><br>
+        <label for="actor1">Hlavna postava:</label>
+        <input type="text" id="actor1" name="actor1"><br>
+        <label for="actor2">Vedľajšia postava:</label>
+        <input type="text" id="actor2" name="actor2"><br>  
+              </form>
+              <div class="buttons">
+                <button id="vlozit" onclick="input()">Vložiť</button>
+                <button id="deleteLast" onclick="deleteLast()">Odstrániť posledný</button>
+                <button id="deleteAll" onclick="deleteAll()">Vymazať zoznam</button>
+              </div>         
+
+              <p id="listMovie"></p>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
